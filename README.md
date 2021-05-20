@@ -6,7 +6,7 @@ https://xivapi.com/
 
 This API pulls from https://na.finalfantasyxiv.com/lodestone/
 
-In order for these tools to pull charachter information correctly, the privacy settings will have to be set to Public for Achievements.
+In order for these tools to pull character information correctly, the privacy settings will have to be set to Public for Achievements.
 
 1. Go here: https://na.finalfantasyxiv.com/lodestone/
 2. Choose login from the top right of the screen.
