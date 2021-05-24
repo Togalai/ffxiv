@@ -94,8 +94,9 @@ for m in mem_ids:
     mem_progression(m)
 try:
     # Converts final full dictionary into a Dataframe and outputs dataframe to a csv file.
+    # Would like this to overwrite the google sheet in the future rather than output to csv
     df = pd.DataFrame.from_dict(m_achieve)
-    df.to_csv(r'C:\Users\Sam\Documents\Python Scripts\FC_Prog.csv')
+    df.to_csv(r'C:\Users\Sam\Documents\Python Scripts\FC_Prog.csv', index=False)
 except Exception as e:
     print(e)
 
